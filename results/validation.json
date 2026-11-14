@@ -1,0 +1,30 @@
+{
+ "mm1": {
+  "lam": 0.7,
+  "mu": 1.0,
+  "theory": 2.333333333333333,
+  "sim": 2.387815713770057,
+  "ci": 0.0576536887967917,
+  "theory_inside_ci": true
+ },
+ "arrivals": {
+  "STC": {
+   "expected": 498.0,
+   "simulated": 495.81917736118345
+  },
+  "MainGate": {
+   "expected": 360.0,
+   "simulated": 357.1617779323754
+  }
+ },
+ "little_max_rel_err": 1.1381641875703184e-15,
+ "conservation_ok": true,
+ "crn_same_arrivals_all_scenarios": true,
+ "zero_demand_ok": true,
+ "stc_wait_by_stc_buses": {
+  "4": 24.49534994802527,
+  "6": 8.927271870561515,
+  "8": 5.468932057737123
+ },
+ "monotone_ok": true
+}
